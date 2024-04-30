@@ -1,0 +1,178 @@
+/* Add background color to the entire application */
+.app {
+  background-color: #1ac7e6; /* Example background color */
+}
+
+/* Table */
+.transaction-table {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 7px solid #b5ee94;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #757375;
+  font-weight: bold;
+}
+tr {
+  background-color: #f4f4f5; /* Fixed background color forKOKO table rows */
+}
+/* Search Bar */
+.search-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 5px solid #0a9dc2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(230, 226, 12, 0.781);
+}
+
+/* Add padding to the button */
+.search-btn {
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(86, 236, 56, 0.959);
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+/* Amount Text Box */
+.amount-input {
+  width: 100px; /* Adjust width as needed */
+  padding: 10px;
+  margin-right: 10px;
+  border: 10px solid #af8686;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(220, 235, 10, 0.808);
+}
+
+/* Transaction Form */
+.transaction-form {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 10px solirgb(129, 173, 170)cc;
+  border-radius: 9px;
+  box-shadow: 0 4px 20px rgba(13, 15, 13, 0.959);
+  display: flex;
+  align-items: center;
+}
+
+/* Form Group */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* Label */
+.form-group label {
+  margin-right: 10px;
+}
+
+/* Input */
+.form-control {
+  padding: 10px;
+  border: 4px solid #9b9e6f;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(114, 80, 170, 0.884);
+  margin-right: 10px;
+}
+
+/* Button */
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #349c2a;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 15px 70px rgba(213, 240, 93, 0.89);
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #1ed7f8c9;
+}
+
+/* Date Picker Popper */
+.datepicker-popper {
+  z-index: 9999; /* Adjust z-index as needed */
+}
+
+
+/* Search Bar */
+.search-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 16px solid #71d46d;
+  border-radius: 5px;
+  box-shadow: 0 2px 9px rgba(22, 208, 214, 0.884);
+}
+/* Add padding to text boxes */
+.form-group > * {
+  padding: 10px;
+}
+
+/* Add margin between text boxes */
+.form-group > * + * {
+  margin-top: 10px;
+}
+/* Button */
+.search-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 9px rgba(114, 80, 170, 0.884);
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles for arranging text boxes */
+.form-group.horizontal {
+  flex-direction: row;
+}
+
+.form-group.horizontal > * {
+  margin-right: 10px;
+}
+
+.form-group.horizontal > *:last-child {
+  margin-right: 0;
+}
